@@ -2,7 +2,7 @@
  * Created by ant on 2018/10/19.
  */
 import React, { Component } from 'react';
-class Input extends Component(){
+class Input extends Component{
     constructor (){
         super()
         this.state={
@@ -17,7 +17,7 @@ class Input extends Component(){
     render(){
         return(
             <div>
-                <input type="text" onInput={(e)=>this.hanleInput(e)} value={this.state.value} />
+                <input type="text" onInput={(e)=>this.hanleInput(e)} value={this.state.value} ></input>
             </div>
         )
     }
